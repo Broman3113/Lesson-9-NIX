@@ -1,0 +1,24 @@
+body {
+    background-color: #AFBFC0;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.Header, .Footer{
+    background: #005d5d;
+    flex-shrink: 0;
+    color: #fff;
+}
+.Main{
+    flex: 1 0 auto;
+}
+

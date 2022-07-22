@@ -1,0 +1,13 @@
+.Nav {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+}

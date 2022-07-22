@@ -1,0 +1,12 @@
+export const selectGoods = state => state.goods.items;
+export const selectAreItemsLoading = state => state.goods.areItemsLoading;
+export const selectGoodsError = state => state.goods.error;
+export const selectRemovingItems = state => state.goods.removingItems;
+export const selectRemovingItemsError = state => state.goods.removingItemsError;
+export const selectIsAddingItem = state => state.goods.isAddingItem;
+export const selectAddingItemError = state => state.goods.addingItemError;
+export const selectIsAddingItemSuccess = state => state.goods.isAddingItemSuccess;
+export const selectShouldFetch = state => state.goods.shouldFetch;
+export const selectIsEditingItem = state => state.goods.isEditingItem;
+export const selectEditingItemError = state => state.goods.editingItemError;
+export const selectIsEditingItemSuccess = state => state.goods.isEditingItemSuccess;
